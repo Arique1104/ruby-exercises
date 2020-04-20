@@ -9,16 +9,19 @@ class HorseTest < Minitest::Test
   end
 
   def test_it_has_a_name
+    # skip
     harry = Horse.new("Harry")
     assert_equal "Harry", harry.name
   end
 
   def test_diet_starts_empty
+    # skip
     harry = Horse.new("Harry")
     assert_equal [], harry.diet
   end
 
   def test_it_can_add_to_diet
+    # skip
     harry = Horse.new("Harry")
     harry.add_to_diet("Hay")
     harry.add_to_diet("Sugar Cubes")

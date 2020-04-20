@@ -9,11 +9,13 @@ class FerretTest < Minitest::Test
   end
 
   def test_it_has_no_name
+    # skip
     ferret = Ferret.new
     assert_equal "a ferret has no name", ferret.name
   end
 
   def test_it_can_be_given_a_name
+    # skip
     felix = Ferret.new
     felix.give_name("Felix")
     assert_equal "a ferret's name is Felix", felix.name

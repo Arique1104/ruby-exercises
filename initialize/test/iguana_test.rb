@@ -9,11 +9,13 @@ class IguanaTest < Minitest::Test
   end
 
   def test_it_starts_with_no_colors
+    # skip
     iguana = Iguana.new
     assert_equal [], iguana.colors
   end
 
   def test_it_can_set_colors
+    # skip
     iguana = Iguana.new
     iguana.colors = ["Green", "Red", "White"]
     assert_equal ["Green", "Red", "White"], iguana.colors

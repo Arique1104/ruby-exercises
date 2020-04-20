@@ -9,11 +9,13 @@ class LionTest < Minitest::Test
   end
 
   def test_it_has_a_name
+    # skip
     lionel = Lion.new({name: "Lionel", sound: "roar"})
     assert_equal "Lionel", lionel.name
   end
 
   def test_it_has_a_sound
+    skip
     lionel = Lion.new({name: "Lionel", sound: "roar"})
     assert_equal "roar", lionel.sound
   end

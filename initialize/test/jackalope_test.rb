@@ -9,11 +9,13 @@ class JackalopeTest < Minitest::Test
   end
 
   def test_it_has_a_name
+    # skip
     jorge = Jackalope.new("Jorge")
     assert_equal "Jorge", jorge.name
   end
 
   def test_it_starts_with_an_array_of_etymology
+    # skip
     jorge = Jackalope.new("Jorge")
     assert_equal ["Jackrabbit", "Antelope"], jorge.etymology
   end

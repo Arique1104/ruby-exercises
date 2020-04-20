@@ -9,6 +9,7 @@ class KangarooTest < Minitest::Test
   end
 
   def test_it_has_children
+    # skip
     kerrie = Kangaroo.new("Kerrie", ["Kat", "Kyle"])
     assert_equal ["Kat", "Kyle"], kerrie.children
   end

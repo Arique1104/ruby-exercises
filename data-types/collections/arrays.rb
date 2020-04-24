@@ -191,7 +191,10 @@ class ArraysTest < Minitest::Test
     dice = [1,2,3,4,5,6]
     # Call a method on the dice variable to get a random element out
     # of the array
+
+
     roll = dice.sample
+    require "pry"; binding.pry
     assert roll <= 6
     assert roll >= 1
     # Note, this assertion assumes the Ruby Version is 2.4 or higher.

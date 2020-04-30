@@ -55,6 +55,6 @@ class DragonTest < Minitest::Test
     assert dragon.hungry?
     dragon.eat
     refute dragon.hungry?
-    # require "pry"; binding.pry
+    require "pry"; binding.pry
   end
 end
